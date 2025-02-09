@@ -46,6 +46,8 @@ class Order:
     def apply_discount(self, discount_dict: dict) -> float:
         discount_percentage = discount_dict.get(self.discount_code, 0)
         discount_amount = (self.total_before_discount() * discount_percentage) / 100
+        if discount_amount != 0:
+            logging.info(f"Discount Applied: {discount_percentage} % Code:{self.discount_code}")
         return self.total_before_discount() - discount_amount
     
     def order_summary(self, discount_dict: dict) -> str:
