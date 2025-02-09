@@ -13,13 +13,6 @@ applies discounts, calculates totals, and generates an invoice summary.
 - Proper error handling for missing files, invalid JSON, and missing fields
 - Unit tests included
 
-## Prerequisites
-
-Make sure you have the following installed:
-
-- Python 3.7 or later
-- `pip` for package management
-
 ## Installation
 
 Clone the repository:
