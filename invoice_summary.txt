@@ -1,0 +1,2 @@
+Order ID: 101 | Customer: Alice | Total Before Discount: $1100.00 | Total After Discount: $990.00
+Order ID: 102 | Customer: Bob | Total Before Discount: $400.00 | Total After Discount: $400.00
